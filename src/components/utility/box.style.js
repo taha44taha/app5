@@ -24,6 +24,10 @@ const BoxWrapper = styled.div`
       width: 100%;
     }
   }
+
+  @media only screen and (max-width: 650px) {
+    margin: 0;
+  }
 `;
 
 export { BoxWrapper };
